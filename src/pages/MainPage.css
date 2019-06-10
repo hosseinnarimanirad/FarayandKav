@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: 'IRAN Sans';
+    src:url('../assets/fonts/IRANSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'EntezareZohoor 1 **';
+    src: url('../assets/fonts/Entezar1_v2.0.1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'EntezareZohoor 2 **';
+    src: url('../assets/fonts/Entezar2_v2.0.1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'EntezareZohoor 3 **';
+    src: url('../assets/fonts/Entezar3_v2.0.1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Casablanca';
+    src: url('../assets/fonts/../fonts/Mj_Casablanca.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .iranSansFont {
+    font-family: IRAN Sans, Calibri !important;
+  }
+  
+  .entezareZohoor1Font {
+    font-family: 'EntezareZohoor 1 **' !important;
+  }
+  
+  .entezareZohoor2Font {
+    font-family: 'EntezareZohoor 2 **' !important;
+  }
+  
+  .casablancaFont {
+    font-family: Casablanca !important;
+  }
+
+  .productImages {
+    width: 100px;
+    height: 100px;
+  }
+
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+}
