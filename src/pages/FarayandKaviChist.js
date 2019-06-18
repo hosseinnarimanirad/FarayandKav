@@ -50,7 +50,11 @@ class FarayandKaviChist extends React.Component {
           </p>
         <img className="rounded mx-auto d-block" src={fkcFig1} style={{maxWidth:'70%'}} alt="شمای کلی حوزه بین رشته ای فرآیندکاوی"></img>
         <p className="text-center" style={{fontSize:12}}>
-            شکل ۱: شمای کلی حوزه بین رشته ای فرآیندکاوی (لینک)
+            شکل ۱: شمای کلی حوزه بین رشته ای فرآیندکاوی 
+            (
+              <a href="https://www.researchgate.net/publication/283636375_Processes_Meet_Big_Data_Connecting_Data" target="_blank" rel="noopener noreferrer">لینک</a>
+              
+            )
         </p>
         <p>
             در این میان سه گونه تحلیل اصلی در فرآیندکاوی مطرح است: 1) کشف فرآیند، 2) کنترل هم‌نوایی و 3) بهبود.

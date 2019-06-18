@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBRow, MDBCol, MDBView, MDBMask } from 'mdbreact';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Iframe from 'react-iframe'
  
@@ -63,9 +63,9 @@ class MainPage extends React.Component {
              <MDBNavItem>
                <MDBNavLink to="/MahsoolhaPage">محصول‌ها</MDBNavLink>
              </MDBNavItem>
-             <MDBNavItem>
+             {/* <MDBNavItem>
                <MDBNavLink to="#">محتوا</MDBNavLink>
-             </MDBNavItem>  
+             </MDBNavItem>   */}
                
            </MDBNavbarNav>
          </MDBCollapse>
@@ -81,10 +81,11 @@ class MainPage extends React.Component {
  <main> 
  
  <div style={{marginTop:50}}>
+  <Switch>
   <Route exact path="/" component={HomePage}/>
   <Route path="/FarayandKaviChistPage" component={FarayandKaviChist}/>
   <Route path="/MahsoolhaPage" component={MahsoolhaPage}/>
-  
+  </Switch> 
 </div>
 
 
