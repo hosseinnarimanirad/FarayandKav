@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import FarayandKaviChist from './pages/FarayandKaviChist';
 
 import logo from './logo.svg';
-import './App.css';
+import './App.css'; 
 
 import MainPage from './pages/MainPage'
 import DocumentMeta from 'react-document-meta';
@@ -19,6 +19,7 @@ function App() {
     title: 'فرآیندکاو',
     description: 'اجرای حرفه ای فرآیندکاوی و هوش تجاری برای کسب و کارها و سازمان ها',
     canonical: 'https://pkav.ir',
+   
     meta: {
       charset: 'utf-8',
       name: {

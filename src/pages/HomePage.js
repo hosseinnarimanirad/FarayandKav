@@ -10,6 +10,7 @@ import processM from '../assets/images/processM.png';
 import apartImage from '../assets/images/brands/aparat.png'
 import appSourceImage from '../assets/images/brands/appsource.png'
 import pkavBackground from '../assets/images/pkavBackground.jpg'
+import farayandKavWhite from '../assets/images/logo/FarayanKavWhite.png';
 // import  './App.css';
 
 import { FaEnvelope } from 'react-icons/fa'
@@ -21,8 +22,12 @@ class HomePage extends React.Component {
 
       <MDBView src={pkavBackground}>
         <MDBMask overlay="green-strong" className="flex-center flex-column text-white text-center">
-          <h2 className="entezareZohoor1Font" style={{ fontSize: '58px' }}>فرآیند کاوی</h2>
-          <h5 className="iranSansFont">کشف خودکار و هوشمندانهٔ بینش‌های فرآیندی از انبوه داده</h5>
+          {/* <h2 className="entezareZohoor1Font" style={{ fontSize: '58px' }}>فرآیند کاوی</h2> */}
+          <img src={farayandKavWhite} style={{width:'300px', margin:'20px'}} alt="فرآیندکاو"/>
+          <br/>
+          <br/>
+          
+          <h3 className="iranSansFont">کشف خودکار و هوشمندانهٔ بینش‌های فرآیندی از انبوه داده</h3>
           <br />
           {/* <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p> */}
         </MDBMask>
